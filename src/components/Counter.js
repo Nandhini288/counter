@@ -21,8 +21,8 @@ function Counter()
             <h1>Counter</h1>
             <table>
                 <tr>
-                    <td> <button onClick={increament}><span>+</span></button></td>
                     <td><button onClick={decreament}><span>-</span></button></td>
+                    <td> <button onClick={increament}><span>+</span></button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><h1>{count}</h1></td>
